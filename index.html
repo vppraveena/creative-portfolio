@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Portfolio — Srinivas KV</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LANDING PAGE -->
+  <section id="landing" class="page active">
+    <div class="noise-overlay"></div>
+    <div class="grid-bg"></div>
+
+    <div class="landing-content">
+      <div class="tag-line">
+        <span class="dot"></span>
+        <span>Portfolio 2025</span>
+      </div>
+
+      <h1 class="main-heading">
+        <span class="line" data-text="Creative">Creative</span>
+        <span class="line accent" data-text="Portfolio">Portfolio</span>
+      </h1>
+
+      <p class="byline">by <em>Srinivas KV</em></p>
+
+      <div class="divider"></div>
+
+      <nav class="portfolio-nav">
+        <button class="nav-btn" data-target="social-media" onclick="navigateTo('social-media')">
+          <span class="btn-number">01</span>
+          <span class="btn-label">Social Media</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <button class="nav-btn" data-target="product-pitch" onclick="navigateTo('product-pitch')">
+          <span class="btn-number">02</span>
+          <span class="btn-label">Product Pitch</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <button class="nav-btn" data-target="standup-comedy" onclick="navigateTo('standup-comedy')">
+          <span class="btn-number">03</span>
+          <span class="btn-label">Stand-up Comedy</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="landing-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="floating-label fl-1">Creative</div>
+      <div class="floating-label fl-2">Original</div>
+      <div class="floating-label fl-3">Bold</div>
+    </div>
+  </section>
+
+  <!-- SOCIAL MEDIA PAGE -->
+  <section id="social-media" class="page">
+    <div class="noise-overlay"></div>
+    <div class="page-header">
+      <button class="back-btn" onclick="goBack()">
+        <span>←</span> Back
+      </button>
+      <div class="page-tag">
+        <span class="dot purple"></span>
+        Social Media
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="section-title-wrap">
+        <span class="step-label">Category 01</span>
+        <h2 class="section-heading">Social Media <span class="accent">Content</span></h2>
+        <p class="section-sub">Short-form videos crafted for engagement, reach, and storytelling.</p>
+      </div>
+
+      <div class="video-grid">
+        <div class="video-card" data-index="1">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Reel</span>
+              <span class="video-duration">0:45</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Campaign Highlight</p>
+              <p class="video-desc">Brand storytelling · Instagram</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="2">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Short</span>
+              <span class="video-duration">1:12</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Product Drop</p>
+              <p class="video-desc">Launch content · YouTube Shorts</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="3">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Trending</span>
+              <span class="video-duration">0:30</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Viral Moment</p>
+              <p class="video-desc">Trend-riding · TikTok</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PITCH PAGE -->
+  <section id="product-pitch" class="page">
+    <div class="noise-overlay"></div>
+    <div class="page-header">
+      <button class="back-btn" onclick="goBack()">
+        <span>←</span> Back
+      </button>
+      <div class="page-tag">
+        <span class="dot purple"></span>
+        Product Pitch
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="section-title-wrap">
+        <span class="step-label">Category 02</span>
+        <h2 class="section-heading">Product <span class="accent">Pitch</span></h2>
+        <p class="section-sub">Compelling pitch decks and demo videos that convert ideas into investment.</p>
+      </div>
+
+      <div class="video-grid">
+        <div class="video-card" data-index="1">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Pitch</span>
+              <span class="video-duration">3:20</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Startup Deck</p>
+              <p class="video-desc">Seed round · Fintech</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="2">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Demo</span>
+              <span class="video-duration">2:45</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Product Demo</p>
+              <p class="video-desc">Live walkthrough · SaaS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="3">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Investor</span>
+              <span class="video-duration">5:00</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Series A Pitch</p>
+              <p class="video-desc">Growth stage · EdTech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAND-UP COMEDY PAGE -->
+  <section id="standup-comedy" class="page">
+    <div class="noise-overlay"></div>
+    <div class="page-header">
+      <button class="back-btn" onclick="goBack()">
+        <span>←</span> Back
+      </button>
+      <div class="page-tag">
+        <span class="dot purple"></span>
+        Stand-up Comedy
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="section-title-wrap">
+        <span class="step-label">Category 03</span>
+        <h2 class="section-heading">Stand-up <span class="accent">Comedy</span></h2>
+        <p class="section-sub">Live sets, open mics, and comedy specials — raw, real, and funny.</p>
+      </div>
+
+      <div class="video-grid">
+        <div class="video-card" data-index="1">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Live Set</span>
+              <span class="video-duration">8:30</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Open Mic Night</p>
+              <p class="video-desc">Club performance · Mumbai</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="2">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Special</span>
+              <span class="video-duration">12:00</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Comedy Special</p>
+              <p class="video-desc">Recorded special · Bangalore</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" data-index="3">
+          <div class="video-placeholder">
+            <div class="play-ring">
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="video-meta">
+              <span class="video-tag">Clip</span>
+              <span class="video-duration">4:15</span>
+            </div>
+            <div class="video-label">
+              <p class="video-title">Best Bits</p>
+              <p class="video-desc">Highlight reel · 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
