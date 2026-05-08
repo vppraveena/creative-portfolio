@@ -273,6 +273,51 @@ body {
   animation: float1 9s ease-in-out infinite;
 }
 
+/* ── About Me ── */
+.about-me-layout {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 60px auto 0;
+}
+
+.about-me-photo {
+  flex-shrink: 0;
+}
+
+.about-me-photo img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #222;
+}
+
+.about-me-text .section-heading {
+  margin-bottom: 20px;
+}
+
+.about-me-bio {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .about-me-layout {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+    margin-top: 24px;
+  }
+
+  .about-me-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /* ── Sub Pages ── */
 .page-header {
   display: flex;
@@ -463,6 +508,24 @@ body {
   height: 100%;
   border: none;
   display: block;
+}
+
+/* Card Caption (below video) */
+.card-caption {
+  padding: 12px 4px 0;
+}
+
+.card-caption-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ccc;
+  margin-bottom: 4px;
+}
+
+.card-caption-sub {
+  font-size: 0.75rem;
+  color: #555;
+  letter-spacing: 0.5px;
 }
 
 .yt-thumb {

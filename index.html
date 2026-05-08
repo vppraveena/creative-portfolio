@@ -32,18 +32,23 @@
       <div class="divider"></div>
 
       <nav class="portfolio-nav">
-        <button class="nav-btn" data-target="social-media" onclick="navigateTo('social-media')">
+        <button class="nav-btn" data-target="about-me" onclick="navigateTo('about-me')">
           <span class="btn-number">01</span>
+          <span class="btn-label">About Me</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <button class="nav-btn" data-target="social-media" onclick="navigateTo('social-media')">
+          <span class="btn-number">02</span>
           <span class="btn-label">Social Media</span>
           <span class="btn-arrow">→</span>
         </button>
         <button class="nav-btn" data-target="product-pitch" onclick="navigateTo('product-pitch')">
-          <span class="btn-number">02</span>
+          <span class="btn-number">03</span>
           <span class="btn-label">Product Pitch</span>
           <span class="btn-arrow">→</span>
         </button>
         <button class="nav-btn" data-target="standup-comedy" onclick="navigateTo('standup-comedy')">
-          <span class="btn-number">03</span>
+          <span class="btn-number">04</span>
           <span class="btn-label">Stand-up Comedy</span>
           <span class="btn-arrow">→</span>
         </button>
@@ -56,6 +61,32 @@
       <div class="floating-label fl-1">Creative</div>
       <div class="floating-label fl-2">Original</div>
       <div class="floating-label fl-3">Bold</div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME PAGE -->
+  <section id="about-me" class="page">
+    <div class="noise-overlay"></div>
+    <div class="page-header">
+      <button class="back-btn" onclick="goBack()">
+        <span>←</span> Back
+      </button>
+      <div class="page-tag">
+        <span class="dot purple"></span>
+        About Me
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="about-me-layout">
+        <div class="about-me-photo">
+          <img src="assets/ProfilePic.JPEG" alt="Srinivas KV">
+        </div>
+        <div class="about-me-text">
+          <h2 class="section-heading">About <span class="accent">Me</span></h2>
+          <p class="about-me-bio">I am a student at Moreau Catholic High School (Class of 2027) and an aspiring tech entrepreneur focused on the intersection of AI innovation, financial literacy, and the performing arts. Beyond academics, I perform stand-up comedy, have opened for internationally recognized comedians, and organize charity shows supporting local organizations such as Community Seva.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -86,10 +117,6 @@
               <div class="play-ring">
                 <div class="play-icon">▶</div>
               </div>
-            </div>
-            <div class="video-label">
-              <p class="video-title">Campaign Video</p>
-              <p class="video-desc">Stand up - Opening Act promo video</p>
             </div>
           </div>
         </div>
@@ -138,6 +165,10 @@
               </div>
             </div>
           </div>
+          <div class="card-caption">
+            <p class="card-caption-title">Orderly App Pitch</p>
+            <p class="card-caption-sub">Startup Highschool Competition</p>
+          </div>
         </div>
 
         <div class="video-card" data-index="2">
@@ -148,6 +179,10 @@
               </div>
             </div>
           </div>
+          <div class="card-caption">
+            <p class="card-caption-title">Orderly App Pitch</p>
+            <p class="card-caption-sub">Blue Ocean Competition</p>
+          </div>
         </div>
 
         <div class="video-card" data-index="3">
@@ -157,6 +192,10 @@
                 <div class="play-icon">▶</div>
               </div>
             </div>
+          </div>
+          <div class="card-caption">
+            <p class="card-caption-title">CheqIn App Pitch</p>
+            <p class="card-caption-sub">Conrad Challenge</p>
           </div>
         </div>
       </div>
