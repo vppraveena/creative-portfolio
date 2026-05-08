@@ -109,10 +109,10 @@ body {
 /* Main Heading */
 .main-heading {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(4rem, 12vw, 10rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   line-height: 0.95;
-  letter-spacing: 4px;
-  margin-bottom: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
 }
 
 .main-heading .line {
