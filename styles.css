@@ -411,6 +411,37 @@ body {
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
+/* Thumbnail Card */
+.video-thumb {
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  display: flex;
+  aspect-ratio: 9 / 16;
+}
+
+.video-thumb .video-label {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+}
+
+.thumb-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-thumb:hover .thumb-overlay {
+  opacity: 1;
+}
+
 /* Play Button */
 .play-ring {
   width: 64px;
