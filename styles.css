@@ -528,6 +528,20 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* Views Badge */
+.views-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ig-views-icon {
+  width: 14px;
+  height: 14px;
+  fill: #555;
+  flex-shrink: 0;
+}
+
 .yt-thumb {
   background-size: cover;
   background-position: center;
