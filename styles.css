@@ -335,10 +335,10 @@ body {
   padding: 10px 20px;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.85rem;
-  border: 1px solid #222;
+  border: 1px solid #444;
   border-radius: 8px;
-  background: rgba(255,255,255,0.02);
-  color: #777;
+  background: rgba(255,255,255,0.06);
+  color: #ccc;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -508,6 +508,11 @@ body {
   height: 100%;
   border: none;
   display: block;
+}
+
+/* Compact Grid */
+.compact-grid .video-placeholder {
+  aspect-ratio: 16 / 9;
 }
 
 /* Card Caption (below video) */
